@@ -8,9 +8,7 @@
     background-color: #F38713;
     color: whitesmoke;
 }
-/* .img-size{
-    width: 60%;
-} */
+
 
 .txt-clr {
     color: black;
@@ -66,7 +64,7 @@ footer {
     .app-store{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        
     }
-   
+ 
 }
