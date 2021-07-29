@@ -1,0 +1,42 @@
+#hm {
+    background-color: #264653;
+    padding: 4% 10% 4%;
+    color: #fff;
+}
+
+.btn-clr {
+    background-color: #F38713;
+    color: whitesmoke;
+}
+
+.txt-clr {
+    color: black;
+}
+
+.btn-brdr {
+    border-color: #F38713;
+    color: #F38713;
+}
+
+span {
+    color: #F38713;
+}
+
+.img-grayscale {
+    filter: grayscale(1);
+
+}
+
+.fa-star {
+    color: #F38713;
+}
+
+footer {
+    background-color: #0B0D17;
+    padding: 4% 10%;
+    color: whitesmoke;
+}
+
+.text-margin {
+    margin-right: 20px;
+}
