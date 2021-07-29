@@ -66,5 +66,12 @@ footer {
         flex-direction: column;
         
     }
- 
+    footer{
+        position: relative;
+        padding-bottom: 50px;
+    }
+ .copyright{
+     position: absolute;
+     bottom: 15px;
+ }
 }
