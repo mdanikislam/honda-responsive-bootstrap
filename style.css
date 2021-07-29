@@ -8,6 +8,9 @@
     background-color: #F38713;
     color: whitesmoke;
 }
+/* .img-size{
+    width: 60%;
+} */
 
 .txt-clr {
     color: black;
@@ -39,4 +42,33 @@ footer {
 
 .text-margin {
     margin-right: 20px;
+}
+
+@media (max-width:480px) {
+    .stamped-pic{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .txt-align{
+    text-align: center;
+    }
+    .cntct{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap; 
+        
+         
+    }
+    .ftr{
+        margin-top: 30px;
+    }
+    .app-store{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .copyright{
+            
+    }
 }

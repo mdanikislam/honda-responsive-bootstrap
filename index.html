@@ -15,40 +15,39 @@
     <!---------------------- font awsome  -------------------->
     <script src="https://kit.fontawesome.com/f1d4a56739.js" crossorigin="anonymous"></script>
     <style>
-        
+
     </style>
 </head>
 
 <body>
-    <header id="hm" class="mb-3">
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-            <div class="container ">
-                
+    <header id="hm" itemid="home" class="mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home"><img src="./images/logo1.png" width="50px" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#shop">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#news">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li>
-                                <div class="btn btn-clr p-1 px-2">Login</div>
-                            </li>
-                        </ul>
-    
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-clr px-3" type="submit">Login</button>
+                    </form>
+                </div>
             </div>
         </nav>
 
@@ -80,11 +79,17 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body txt-clr">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quae minima
-                                    dolor fuga maiores commodi, mollitia accusamus quos ullam necessitatibus velit nemo
-                                    tempora omnis consequatur eaque animi doloribus est sunt dolorum illo quod saepe
-                                    fugit! Mollitia aliquam reprehenderit esse! Adipisci aliquid maiores, praesentium
-                                    quis est iure amet numquam doloribus inventore!
+                                    <h6 class="fw-bold">The documents required to buy a new bike are as follows:</h6>
+                                    <p>
+                                    <ul>
+                                        <li>Attested copy of the ID proof of the buyer.</li>
+                                        <li>Proof of residence copy, attested.</li>
+                                        <li>Passport size photos.</li>
+                                        <li>Buyers will have to additionally provide income proof in case the bike is
+                                            bought through a loan. The original ID proof and address proof are also
+                                            required.</li>
+                                    </ul>
+                                    </p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
@@ -103,26 +108,26 @@
 
     <main>
         <!---------------------------------------- features bikes start -------------------------------------->
-        <section class="my-5">
+        <section class="my-5" id="shop">
             <div class="text-center my-3">
                 <h1>Fetured Bikes 2021</h1>
                 <h6>Best bike collection</h6>
             </div>
-            <div class="container ">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
                     <div class="col">
                         <div class="card border-0  h-100">
-                            <img src="./images/feature-bike.jpg" class="card-img-top img-grayscale" alt="...">
+                            <img src="./images/feature-bike.jpg" class="card-img-top img-grayscale img-size" alt="...">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border-0 h-100">
-                            <img src="./images/feature-bike.jpg" class="card-img-top" alt="...">
+                            <img src="./images/feature-bike.jpg" class="card-img-top img-size" alt="...">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border-0 h-100">
-                            <img src="./images/feature-bike.jpg" class="card-img-top img-grayscale" alt="...">
+                            <img src="./images/feature-bike.jpg" class="card-img-top img-grayscale img-size" alt="...">
                         </div>
                     </div>
                 </div>
@@ -131,12 +136,12 @@
         <!--------------------------------------------------------- feature bikes end  --------------------------------------------------->
 
         <!------------------------------------------------------------ Latest News start ------------------------------------------------------>
-        <section class="my-5">
+        <section class="my-5" id="news">
             <div class="text-center">
                 <h1>latest News</h1>
             </div>
             <div class="container my-3">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                     <div class="col">
                         <div class="card p-3 h-100">
                             <img src="./images/bike-1.png" class="card-img-top" alt="...">
@@ -188,7 +193,7 @@
                 <h1>Happy <span>Clients says</span> </h1>
             </div>
             <div class="container my-5">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                     <div class="col">
                         <div class="card p-3 h-100 text-center">
                             <img src="./images/user-1.png" class="card-img-top" alt="...">
@@ -256,25 +261,24 @@
                 <div class="col-lg-5 p-5 d-flex align-items-center">
                     <img src="./images/faq.png" class="img-fluid w-80" alt="">
                 </div>
-                <div class="col-lg-7 col-sm-5 p-5  d-flex align-items-center">
+                <div class="col-lg-7 col-sm-5 p-5  d-flex align-items-center ">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
+                                    What are the most important things I should
+                                    know about riding a bike?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="panelsStayOpen-headingOne">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p class="fw-lighter"> Safety First! Always obey the rules of the road. Obey all
+                                        traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not
+                                        just “riding” your bike. This will help you be a more focused and legally
+                                        compliant bike rider. </p>
                                 </div>
                             </div>
                         </div>
@@ -283,18 +287,14 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingTwo">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                   <p class="fw-lighter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
                                 </div>
                             </div>
                         </div>
@@ -303,21 +303,32 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
+                                    My bike has been in storage is it safe to ride?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingThree">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p class="fw-lighter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
                                 </div>
                             </div>
                         </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <p class="fw-lighter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -352,17 +363,17 @@
         <hr>
         <section class="container my-5">
             <div class="row">
-                <div class="d-flex align-items-center col-lg-6 ">
+                <div class="d-flex align-items-center col-lg-6  ">
                     <div>
-                        <h4 class="text-center d-flex fw-bold">Highest Rated Bikes Online
-                            <p><i class="fas fa-star"></i></p>
-                            <p><i class="fas fa-star"></i></p>
-                            <p><i class="fas fa-star"></i></p>
-                            <p><i class="fas fa-star"></i></p>
-                            <p><i class="fas fa-star"></i></p>
+                        <h4 class="d-flex fw-bold stamped-pic ">Highest Rated Bikes Online
+                            <span class="txt-align"><i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i></span>
                         </h4>
-                        <div class="d-flex align-items-center">
-                            <div><img src="./images/STAMPED-REVIEW.png" alt=""></div>
+                        <div class="d-flex align-items-center stamped-pic">
+                            <div class="text-margin"><img src="./images/STAMPED-REVIEW.png" alt=""></div>
                             <div><img src="./images/GOOGLE-REVIEW.png" alt=""></div>
                         </div>
                     </div>
@@ -379,19 +390,19 @@
                 </div>
             </div>
         </section>
-        <!----------------------------------- highest rated end  ---------------------->
-        <!----------------------------------------------------- bonus section end  ----------------------------------------------->
+        <!------------------------------------------- highest rated end  ------------------------------------->
+        <!------------------------------------------------------------ bonus section end  ----------------------------------------------------->
     </main>
-    <footer>
+    <footer id="contact">
         <section class="container">
             <div class="row ">
-                <div class="d-flex align-items-center col-lg-6">
+                <div class="d-flex align-items-center  col-lg-6 ftr ">
                     <div>
                         <div class="d-flex  ">
                             <p class="text-margin">Dounload
                             <p class="text-margin">License</p>
                         </div>
-                        <div class="d-flex justify-content-evenly">
+                        <div class="d-flex  cntct">
                             <p class="text-margin">About</p>
                             <p class="text-margin">Features</p>
                             <p class="text-margin">Pricing</p>
@@ -400,13 +411,13 @@
                             <p class="text-margin">Privacy Policy</p>
                         </div>
                         <div>
-                            <p><small>©2021 bike. All rights reserved . Anik Islam</small></p>
+                            <p class="copyright"><small>©2021 bike. All rights reserved . Md.Anik Islam</small></p>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="d-flex align-items-center justify-content-end col-lg-6">
+                <div class="d-flex align-items-center justify-content-end col-lg-6 app-store">
                     <div>
                         <h4>Get the App</h4>
                         <img src="./images/apps-store.png" alt="">
